@@ -2,9 +2,12 @@ import React from 'react'
 import Section from '../Section'
 import ExperienceUnit from '../ExperienceUnit'
 
-import spotifyQuizLogo from '../../assets/images/projects/spotify-quiz.png'
-import littleNomadLogo from '../../assets/images/projects/little-nomad.png'
-import walkthroughViewGif from '../../assets/images/projects/wvwalkthroughview-optimize.gif'
+import irandeal from '../../assets/images/projects/nti-logo.png'
+import populace from '../../assets/images/projects/populace.svg'
+import gates from '../../assets/images/projects/gates.png'
+import issaquah from '../../assets/images/projects/issaquah.jpg'
+import nea from '../../assets/images/projects/nea.png'
+import glasses from '../../assets/images/projects/frames.svg'
 
 class ProjectsSection extends React.Component {
   render() {
@@ -12,32 +15,77 @@ class ProjectsSection extends React.Component {
       <Section title="Projects">
         <div className="row">
           <ExperienceUnit
-            logo={littleNomadLogo}
+            logo={irandeal}
+            colour="#373637"
+            title="Policy Project"
+            link="https://irandeal.nti.org/"
+            timeperiod="2018"
+            subtitle="A long scrolling explainer for the Nuclear Threat Initiative explaining the benefits of the international Iran sanctions."
+          />
+          <ExperienceUnit
+            logo={populace}
+            colour="#febc11"
+            title="Survey Results"
+            link="https://kig-populace-survey.surge.sh/"
+            timeperiod="2018"
+            subtitle="Highlights of survey data demonstrating differing ideas of success"
+          />
+          <ExperienceUnit
+            logo={glasses}
             colour="#FFFFFF"
-            title="Little Nomad"
-            link="https://www.littlenomad.co/"
-            timeperiod="2017 - ???"
-            subtitle="A platform for socially aware travellers. Runs on
-              React+Redux with a Ruby on Rails backend."
+            title="Glasses Selection"
+            link="https://killerinfographics.com/interactive/zenni/frames-faceshape-redux/v06-20180816/index.html"
+            timeperiod="2018"
+            subtitle="Interactive infographic leading users to choose appropriate frames"
           />
           <ExperienceUnit
-            logo={spotifyQuizLogo}
-            colour="#20DC6B"
-            title="Music Quiz for Spotify"
-            link="https://quiz.praagya.com/"
+            logo={gates}
+            colour="#221E20"
+            title="Gates Foundation"
+            link="https://killerinfographics.com/project/gates-foundation-postsecondary-education"
             timeperiod="2017"
-            subtitle="A fun quiz which tests your knowledge of music that
-              you've saved. Built using React/Redux."
+            subtitle="A pair of animation-focused web widgets for the Gates Foundation."
           />
           <ExperienceUnit
-            logo={walkthroughViewGif}
-            colour="#312F31"
-            title="WalkthroughView"
-            link="https://github.com/praagyajoshi/WVWalkthroughView"
-            timeperiod="2016"
-            subtitle="A drop in utility to help onboard a new user/feature.
-              Written in Objective C."
+            logo={nea}
+            colour="#EEE"
+            title="HRS"
+            link="https://killerinfographics.com/interactive/nea/hrs/09-06-17-1813/"
+            timeperiod="2017"
+            subtitle="Interactive widget showing association of positive health impacts from arts participation"
           />
+          {/* <ExperienceUnit
+            logo={nea}
+            colour="#EEE"
+            title="Quiz"
+            link="https://killerinfographics.com/interactive/nea/how-well-do-you-know-quiz/v5-20170501/index.html"
+            timeperiod="2017"
+            subtitle="Interactive quiz about the NEA's activities"
+          /> */}
+          {/* <ExperienceUnit
+            logo={nea}
+            colour="#EEE"
+            title="Artists in Labor Force"
+            link="https://killerinfographics.com/interactive/nea/adp-viz/item-3/v3-20161031/index.html"
+            timeperiod="2016"
+            subtitle="Interactive widget comparing earnings of arts workers"
+          /> */}
+          <ExperienceUnit
+            logo={nea}
+            colour="#EEE"
+            title="Arts Participation"
+            link="https://killerinfographics.com/interactive/nea/adp-viz/item-2/v3-20160825/index.html"
+            timeperiod="2016"
+            subtitle="Interactive widget comparing arts participation across the US"
+          />
+          {/* <ExperienceUnit
+            logo={issaquah}
+            colour="#FFFFFF"
+            title="Report Card"
+            link="https://killerinfographics.com/interactive/issaquah-school-district/report-card/v7-20161118/index.html"
+            timeperiod="2016"
+            subtitle="Report card of student performance for local school district"
+          /> */}
         </div>
       </Section>
     )

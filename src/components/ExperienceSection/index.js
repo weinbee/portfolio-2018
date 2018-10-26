@@ -2,9 +2,8 @@ import React from 'react'
 import Section from '../Section'
 import ExperienceUnit from '../ExperienceUnit'
 
-import zomatoLogo from '../../assets/images/experience/zomato-logo.svg'
-import fitsoLogo from '../../assets/images/experience/fitso-logo.jpg'
-import kayakoLogo from '../../assets/images/experience/kayako-logo-2.jpg'
+import killerLogo from '../../assets/images/experience/killer.png'
+import prokarmaLogo from '../../assets/images/experience/prokarma_logo.svg'
 
 class ExperienceSection extends React.Component {
   render() {
@@ -12,32 +11,20 @@ class ExperienceSection extends React.Component {
       <Section title="Experience">
         <div className="row">
           <ExperienceUnit
-            logo={zomatoLogo}
-            colour='#CB202D'
-            title='Zomato'
-            link='https://www.zomato.com/'
-            timeperiod='2014 - 2015'
-            subtitle='Learnt the ins and outs of product development and
-              built various features including a completely new product.'
+            logo={killerLogo}
+            colour='#00b2e2'
+            title='Killer Infographics'
+            link='https://www.killerinfographics.com/'
+            timeperiod='2016 - '
+            subtitle='(Senior) Frontend developer producing responsive web content from Adobe Illustrator design files'
           />
           <ExperienceUnit
-            logo={fitsoLogo}
+            logo={prokarmaLogo}
             colour='#FFFFFF'
-            title='Fitso'
-            link='https://www.getfitso.com/'
-            timeperiod='2016'
-            subtitle='Built real time GPS tracking on the iOS app,
-              all consumer facing web modules and external APIs in
-              this early stage startup.'
-          />
-          <ExperienceUnit
-            logo={kayakoLogo}
-            colour='#403949'
-            title='Kayako'
-            link='https://www.kayako.com/'
-            timeperiod='2017 - 2018'
-            subtitle='Worked as a Product Engineer on email processing,
-              push notifications, SLAs amongst other things.'
+            title='ProKarma (née Mantis)'
+            link='https://www.prokarma.com/'
+            timeperiod='2013-2016'
+            subtitle='Agile team member for a social media monitoring & sentiment analysis software and various client projects.'
           />
         </div>
       </Section>

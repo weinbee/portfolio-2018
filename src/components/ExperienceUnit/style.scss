@@ -10,15 +10,16 @@
     border: 1px solid $border-color;
     border-radius: 5px;
     overflow: hidden;
-    transition: all 0.6s ease;
-    -webkit-transition: all 0.6s ease;
-
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+    img {
+      padding: 0.5rem;
+    }
     &:hover {
       transform: translateY(-5px);
       box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.3);
     }
   }
-  
+
   .title {
     padding: 8px 0px;
     font-size: 1.8rem;
@@ -31,8 +32,9 @@
   }
 
   .subtitle {
-    color: $grey-color;
+    color: $grey-color2;
     font-size: 1.4rem;
+    margin-bottom: 1rem;
   }
 
   @include media('>=medium', '<large') {
@@ -43,7 +45,7 @@
 
   @include media('<=medium', '>xsmall') {
     padding-bottom: 15px;
-    
+
     .image {
       height: 140px;
     }

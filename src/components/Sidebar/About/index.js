@@ -9,10 +9,9 @@ class About extends Component {
         <div className="image">
         </div>
         <div className="bio">
-          A technology enthusiast &amp; certified scuba diver, who loves travelling, paints occasionally
-          and follows football ardently.
+          Frontend developer and multidisciplinary technologist with a focus on data visualization and animation with 5 years' experience building products for Fortune 1000 companies
           <div className="emoji">
-            🤖 &nbsp;🏔&nbsp;🎨&nbsp; ⚽️
+            💻  &nbsp;🎧 &nbsp;🎮️
           </div>
         </div>
       </div>

@@ -5,9 +5,9 @@ import get from 'lodash/get'
 
 import './style.scss'
 
-import profileImage from '../assets/images/praagya.jpg'
-import favicon16 from '../assets/favicons/favicon-16x16.png'
-import favicon32 from '../assets/favicons/favicon-32x32.png'
+import profileImage from '../assets/images/weinbee.jpg'
+// import favicon16 from '../assets/favicons/favicon-16.png'
+import favicon32 from '../assets/favicons/favicon-32.png'
 
 class TemplateWrapper extends React.Component {
   render () {
@@ -31,7 +31,6 @@ class TemplateWrapper extends React.Component {
             { property: 'og:description', content: siteDescription },
           ]}
           link={[
-            { rel: 'icon', type: 'image/png', sizes: '16x16', href: favicon16 },
             { rel: 'icon', type: 'image/png', sizes: '32x32', href: favicon32 }
           ]}
         />
