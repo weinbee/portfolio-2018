@@ -2,7 +2,7 @@ import React from 'react'
 import Section from '../Section'
 import ExperienceUnit from '../ExperienceUnit'
 
-import killerLogo from '../../assets/images/experience/killer.png'
+import killerLogo from '../../assets/images/experience/Killer-logo.png'
 import prokarmaLogo from '../../assets/images/experience/prokarma_logo.svg'
 
 class ExperienceSection extends React.Component {
