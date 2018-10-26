@@ -12,15 +12,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "<your-tracking-id-here>",
+        trackingId: "UA-128156106-1",
         head: true
       }
     },
   ],
   siteMetadata: {
-    title: 'Praagya Joshi',
-    description: 'Full stack product enginner',
-    keywords: 'full stack, product enginner, portfolio, personal website',
-    url: 'https://www.praagya.com'
+    title: 'Eric Weinberger',
+    description: 'Front-end Engineer',
+    keywords: 'frontend developer, portfolio, personal website',
+    url: 'https://www.ericweinberger.com'
   }
 };
