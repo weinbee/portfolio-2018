@@ -9,7 +9,7 @@ class About extends Component {
         <div className="image">
         </div>
         <div className="bio">
-          Frontend developer and multidisciplinary technologist with a focus on data visualization and animation with 5 years' experience building products for Fortune 1000 companies
+          Frontend developer and multidisciplinary technologist with a focus on data visualization and animation. 5 years' experience building deliverables for Fortune 1000 companies.
           <div className="emoji">
             💻  &nbsp;🎧 &nbsp;🎮️
           </div>
