@@ -14,7 +14,7 @@ const IndexPage = () => (
         </h3>
 
         <h5>
-          Excited to better lives and businesses with web technologies.  Self-directed learner with a voracious information appetite for emerging technologies, improving user experience, and keeping up with the world of JavaScript.
+          Excited to better lives and businesses with web technologies.  Self-directed learner with a voracious information appetite for emerging technologies, improving user experience, and keeping up with the world of the web.
         </h5>
 
         <ExperienceSection />

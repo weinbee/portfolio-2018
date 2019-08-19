@@ -2,10 +2,13 @@ import React from 'react'
 import Section from '../Section'
 import ExperienceUnit from '../ExperienceUnit'
 
+import doxo from '../../assets/images/projects/doxo.png'
+import cloudinary from '../../assets/images/projects/cloudinary.svg'
+import cloudbees from '../../assets/images/projects/cloudbees.svg'
 import irandeal from '../../assets/images/projects/nti-logo.png'
 import populace from '../../assets/images/projects/populace.svg'
 import gates from '../../assets/images/projects/gates.png'
-import issaquah from '../../assets/images/projects/issaquah.jpg'
+// import issaquah from '../../assets/images/projects/issaquah.jpg'
 import nea from '../../assets/images/projects/nea.png'
 import glasses from '../../assets/images/projects/frames.svg'
 
@@ -14,6 +17,30 @@ class ProjectsSection extends React.Component {
     return (
       <Section title="Projects">
         <div className="row">
+          <ExperienceUnit
+            logo={doxo}
+            colour="#ffffff"
+            title="Comparative Bills Microapp"
+            link="https://doxoinsights.netlify.com"
+            timeperiod="2019"
+            subtitle="A serverless Vue microapp exploring the comparative cost of common bills across selected U.S. metro areas."
+          />
+          <ExperienceUnit
+            logo={cloudbees}
+            colour="#1081bf"
+            title="Community Report"
+            link="https://cloudbees-report.netlify.com"
+            timeperiod="2018"
+            subtitle='A lightly animated responsive "ebook" with substantial charting.'
+          />
+          <ExperienceUnit
+            logo={cloudinary}
+            colour="#0091ff"
+            title="Annual Report"
+            link="https://killervisualstrategies.com/interactive/cloudinary/interactive-ebook2019/20190430-1610/index.html"
+            timeperiod="2018"
+            subtitle='A lightly animated responsive "ebook" with substantial charting.'
+          />
           <ExperienceUnit
             logo={irandeal}
             colour="#373637"
