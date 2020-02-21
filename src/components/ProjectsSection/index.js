@@ -11,6 +11,7 @@ import gates from '../../assets/images/projects/gates.png'
 // import issaquah from '../../assets/images/projects/issaquah.jpg'
 import nea from '../../assets/images/projects/nea.png'
 import glasses from '../../assets/images/projects/frames.svg'
+import helmets from '../../assets/images/projects/sec-helmets.png'
 
 class ProjectsSection extends React.Component {
   render() {
@@ -18,12 +19,20 @@ class ProjectsSection extends React.Component {
       <Section title="Projects">
         <div className="row">
           <ExperienceUnit
+            logo={helmets}
+            colour="#7fac30"
+            title="Football Rivalry"
+            link="https://rhavaulzflra.netlify.com"
+            timeperiod="2019"
+            subtitle="Vue microapp tracking the history of the biggest rivalry in SEC football."
+          />
+          <ExperienceUnit
             logo={doxo}
             colour="#ffffff"
-            title="Comparative Bills Microapp"
+            title="Bill Comparison"
             link="https://doxoinsights.netlify.com"
             timeperiod="2019"
-            subtitle="A serverless Vue microapp exploring the comparative cost of common bills across selected U.S. metro areas."
+            subtitle="Vue microapp exploring the comparative cost of common bills across selected U.S. metro areas."
           />
           <ExperienceUnit
             logo={cloudbees}
@@ -37,7 +46,7 @@ class ProjectsSection extends React.Component {
             logo={cloudinary}
             colour="#0091ff"
             title="Annual Report"
-            link="https://killervisualstrategies.com/interactive/cloudinary/interactive-ebook2019/20190430-1610/index.html"
+            link="https://brave-swartz-9e573f.netlify.com/"
             timeperiod="2018"
             subtitle='A lightly animated responsive "ebook" with substantial charting.'
           />

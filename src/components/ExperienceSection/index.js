@@ -15,7 +15,7 @@ class ExperienceSection extends React.Component {
             colour='#00b2e2'
             title='Killer Infographics'
             link='https://www.killerinfographics.com/'
-            timeperiod='2016 - '
+            timeperiod='2016-2020'
             subtitle='(Senior) Frontend developer producing responsive web content from Adobe Illustrator design files'
           />
           <ExperienceUnit
