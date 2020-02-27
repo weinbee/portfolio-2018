@@ -9,7 +9,8 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "start": "gatsby develop"
   },
   "dependencies": {
     "flexboxgrid": "^6.3.1",
