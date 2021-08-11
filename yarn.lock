@@ -5725,12 +5725,12 @@ miller-rabin@^4.0.0:
     bn.js "^4.0.0"
     brorand "^1.0.1"
 
-milligram-scss@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/milligram-scss/-/milligram-scss-1.3.0.tgz#d68096d0144555b78a82ca5159f01e2f0374d217"
-  integrity sha1-1oCW0BRFVbeKgspRWfAeLwN00hc=
+milligram-scss@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/milligram-scss/-/milligram-scss-1.4.1.tgz#2954dd9f8a72ffaea94292e1eeac648740d459d5"
+  integrity sha512-v3ciVXTVvkPcd8iDC0SqFfe14Any/dC26WYZI2Se3w3BYpHx/XyZ4TXPuVVTLQ41nW0T5PaXUc729w2ChDbn+g==
   dependencies:
-    normalize.css "~5.0.0"
+    normalize.css "~8.0.1"
 
 mime-db@1.40.0, "mime-db@>= 1.40.0 < 2":
   version "1.40.0"
@@ -6140,10 +6140,10 @@ normalize-url@^1.4.0:
     query-string "^4.1.0"
     sort-keys "^1.0.0"
 
-normalize.css@~5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-5.0.0.tgz#7cec875ce8178a5333c4de80b68ea9c18b9d7c37"
-  integrity sha1-fOyHXOgXilMzxN6Ato6pwYudfDc=
+normalize.css@~8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-8.0.1.tgz#9b98a208738b9cc2634caacbc42d131c97487bf3"
+  integrity sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==
 
 npm-bundled@^1.0.1:
   version "1.0.6"
@@ -6557,9 +6557,9 @@ path-key@^2.0.0:
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-root-regex@^0.1.0:
   version "0.1.2"
